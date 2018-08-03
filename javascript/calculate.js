@@ -30,6 +30,6 @@ function multiple()
         {
             var txtDisplay="Buzz";
             display(txtDisplay,i);       
+        }
     }
-}
 }
