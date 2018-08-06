@@ -12,8 +12,10 @@ function multiple()
     {
         if(!(i%3==0 || i%5==0))
         {
-            continue; /*The continue statement breaks one iteration in the loop, if a specified condition
+            /*continue; The continue statement breaks one iteration in the loop, if a specified condition
                         occurs, and continues with the next iteration in the loop.*/
+                        var txtDisplay="";
+                        display(txtDisplay,i);
         }
         else if(i%3==0 && i%5==0)
         {
@@ -31,5 +33,9 @@ function multiple()
             var txtDisplay="Buzz";
             display(txtDisplay,i);       
         }
+       /* else{
+            var txtDisplay="";
+            display(txtDisplay,i);
+        }*/
     }
 }
